@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Unlike Everything",
+    "version": "1.0",
+    "description": "Removes the liked vidoes",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["https://www.instagram.com/your_activity/interactions/likes/*"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
